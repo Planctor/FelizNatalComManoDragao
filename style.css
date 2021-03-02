@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
+}
+
+body {
+  width: 100%;
+  background: url("/img/snowman_wallpaper_by_kd_loseaider_d8843wk-fullview.jpg");
+  background-size: 100% 100vh;
+}
+
+section {
+  font-size: 60px;
+}
+
+#section {
+  margin: 99px 0 0 18px;
+  display: flex;
+}
+
+#section .content {
+  margin: 0 0 0 0px;
+  display: block;
+}
+#section .content div {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+#section .content div p {
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #353535;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 83px;
+}
+
+span,
+p {
+  color: #c6505e;
+}
+
+#asection {
+  margin-top: 14px;
+  display: flex;
+  width: 441px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 131px;
+  left: 18px;
+  font-weight: 400;
+}
+
+#asection span {
+  color: #353535;
+  font-size: 60px;
+  line-height: 83px;
+}
+
+#asection p {
+  font-size: 60px;
+  line-height: 83px;
+}
